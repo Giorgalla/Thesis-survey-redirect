@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirecting to survey...</title>
+    <script>
+        // Put your two survey links inside the quotes below
+        var urls = [
+            "https://forms.gle/Sud2RUvDnZwrS1b27",
+            "https://forms.gle/mJw5N54Dk1LNhp3Z6"
+        ];
+        
+        // This picks one of the links randomly
+        var randomSurvey = urls[Math.floor(Math.random() * urls.length)];
+        
+        // This redirects the participant immediately
+        window.location.replace(randomSurvey);
+    </script>
+</head>
+<body>
+    <p>Loading your survey...</p>
+</body>
+</html>
